@@ -129,6 +129,20 @@
   transform: scale(1.1);
 }
 
+@media (max-width: 991.98px) {
+    .img-about img {
+        max-width: 80%; /* Set the image width to 80% of its container */
+        display: block; /* Ensure the image is a block-level element */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+}
+
+@media (min-width: 992px) {
+    .img-about img {
+        max-width: 100%; /* Reduce the image size on larger screens */
+    }
+}
+
 
 /* Add your existing CSS or modify as needed */
 
@@ -184,6 +198,18 @@
 		margin-top: 20px; /* Adjust the value as needed */
 	  }
   }
+
+  .ftco-footer p {
+    margin: 0; /* Set margin to zero */
+    padding: 0; /* Set padding to zero */
+    line-height: 1; /* Ensure minimal line height */
+}
+
+.ftco-footer {
+    padding-top: 0; /* Set padding-top to zero for the footer */
+    padding-bottom: 0; /* Set padding-bottom to zero for the footer */
+}
+
 </style>
 
 
@@ -288,7 +314,7 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 									  <div class="about-img">
-										<img src="images/about-me.jpg" class="img-fluid rounded b-shadow-a" alt="">
+										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
 									  </div>
 									</div>
 									<!-- Details next to profile image -->
@@ -303,7 +329,7 @@
 								  </div>
 
 								<div class="skill-mf">
-									<p class="title-s">Skills</p>
+									<h3 class="title-s">Skills</h3>
 									<span>Machine Learning</span> <span class="pull-right">95%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
@@ -682,6 +708,7 @@
 			<div class="col-md-10 heading-section text-center ftco-animate">
 				<h1 class="big big-2">Services</h1>
 			  <h2 class="mb-4">Services</h2>
+			  <p>Elevate your digital presence with expert services in web development, data analysis, machine learning, and video editing.</p>
 			  </div>
 		  </div>
       </div>
@@ -945,18 +972,16 @@
 
  
 	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	<!--Copyright &copy;<script>document.write(new Date().getFullYear());--></script> Made with <i class="icon-heart color-red" aria-hidden="true"></i> by <a href="#" target="_blank">Prabhsimran Singh</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		  </div>
-		</div>
-	  </footer>
+ <footer class="ftco-footer ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <!--Copyright &copy;<script>document.write(new Date().getFullYear());--></script> Made with <i class="icon-heart color-red" aria-hidden="true"></i> by <a href="#" target="_blank">Prabhsimran Singh</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
   <!-- loader -->
