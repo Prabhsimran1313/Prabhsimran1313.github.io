@@ -65,16 +65,58 @@
 
 
 .skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
+	margin: .5rem 0 1.2rem 0;
+	border-radius: 0;
+	height: .7rem;
+  }
+  
+  .skill-mf .progress .progress-bar {
+	height: .7rem;
+	background-color: #ffbd39;
+	animation: progressAnimation 1s ease forwards;
+  }
+  
+  /* Set width of each progress bar */
+  .skill-mf .progress .progress-bar:nth-of-type(1) {
+	width: 95%; /* Machine Learning */
+  }
+  
+  .skill-mf .progress .progress-bar:nth-of-type(2) {
+	width: 92%; /* Python */
+  }
+  
+  .skill-mf .progress .progress-bar:nth-of-type(3) {
+	width: 90%; /* Django */
+  }
+  
+  .skill-mf .progress .progress-bar:nth-of-type(4) {
+	width: 85%; /* Data Visualization */
+  }
+  
+  .skill-mf .progress .progress-bar:nth-of-type(5) {
+	width: 80%; /* SQL */
+  }
+  
+  .skill-mf .progress .progress-bar:nth-of-type(6) {
+	width: 85%; /* HTML */
+  }
+  
+  .skill-mf .progress .progress-bar:nth-of-type(7) {
+	width: 82%; /* CSS */
+  }
+  
+  .skill-mf .progress .progress-bar:nth-of-type(8) {
+	width: 80%; /* JavaScript */
+  }
+  
+  /* Animation for each progress bar */
+  @keyframes progressAnimation {
+	from {
+	  width: 0;
+	}
+  }
+  
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
 
 
 /* Animation styles */
@@ -516,7 +558,8 @@
     				</div>
 				</div>
     		</div>
-
+			<br>
+			<br>
 			<div class="row">
 				<h1 class="big-4">Certificates</h1>
 				<div class="underline"></div>
@@ -836,7 +879,7 @@
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://github.com/Prabhsimran1313/Fraud-Transactions-Detection">Fraud-Transactions-Detection</a></h3>
+				  <h3 class="heading"><a href="https://github.com/Prabhsimran1313/Fraud-Transactions-Detection">Fraud Transactions Detection</a></h3>
 				  <p>Crafted a robust fraud detection system utilizing machine learning techniques, achieving outstanding accuracies of 93% with Random Forest classifier and 96% with XGBoost classifier. Implemented in Python for scalability and intuitive comprehension.</p>
 				</div>
 			  </div>
@@ -935,7 +978,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">prabhsimransingh24092@gmail.com</a></p>
+	            <p><a href="mailto:prabhsimransingh24092@gmail.com">prabhsimransingh24092@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
